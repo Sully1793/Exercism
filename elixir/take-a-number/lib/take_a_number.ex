@@ -1,6 +1,6 @@
 defmodule TakeANumber do
   def start() do
-    # Please implement the start/0 function
+
   spawn(fn -> loop(0)  end)
   end
 
