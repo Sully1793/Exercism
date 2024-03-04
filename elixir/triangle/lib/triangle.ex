@@ -18,13 +18,4 @@ defmodule Triangle do
   def kind(a, _, a), do: {:ok, :isosceles}
   def kind(a, a, _), do: {:ok, :isosceles}
   def kind(_a, _b, _c), do: {:ok, :scalene}
-
-
-  # def kind(a, b, c) when a <= 0 or b <= 0 or c <= 0 do
-  # {:error, "all side lengths must be positive"}
-  # end
-
-  # def kind(a, b, c) when a <= 0 or b <= 0 or c <= 0 do
-  # {:error, "all side lengths must be positive"}
-  # end
 end
